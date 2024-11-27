@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #aadeff;
+}
+#window{
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card1{
+    height: 550px;
+    width: 390px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#card1 img{
+    height: 330px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+h2, p{
+    width: 330px;
+}
+
+
+
+
+
+#card2{
+    height: 550px;
+    width: 390px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+#card2 img{
+    height: 180px;
+    width: 390px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card2 .box1{
+    height: 370px;
+    width: 330;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#card2 .box1 .button1{
+    width: 330px;
+    height: 55px;
+    background-color: #d2eeff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#card2 .box1 .button1 i{
+    font-size: 20px;
+}
+#card2 .box1 .button1 p{
+    margin-top: 20px;
+    margin-right: 90px;
+    font-size: 14px;
+    height: 55px;
+    width: 80px;
+}
+#card2 .box1 button{
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 104);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    font-size: 14px;
+}
+#cancel{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+
+
+
+
+
+
+#card3{
+    height: 500px;
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    display: flex;
+}
+.leftBox{
+    height: 100%;
+    width: 50%;
+    background-color: #43125F;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.leftBox h1{
+    font-size: 40px;
+}
+.innerBox{
+    display: flex;
+}
+.innerBox h2, .innerBox p{
+    width: 160px;
+}
+.rightBox{
+    height: 100%;
+    width: 50%;
+}
+.rightBox img{
+    height: 100%;
+    width: 100%;
+}
